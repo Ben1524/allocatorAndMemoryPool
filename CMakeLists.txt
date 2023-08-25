@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.22)
-project(memoryPool)
+cmake_minimum_required(VERSION 3.0)
+project(Allocate)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(memoryPool main.cpp)
+add_executable(Allocate main.cpp NginxMemoryPool.cpp allocator.h)
